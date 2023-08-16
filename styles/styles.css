@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #484726;
+}
+
+header{
+    background-color: #484726;
+}
+
+body{
+    background-color: #d9d9db;
+}
+
+.cabecalho{
+    padding: 3% 1% 3% 3%;
+    text-align: left;
+    gap: 5px;
+}
+
+.cabecalho_links{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    color: #d9d9db;
+    font-size:100%;
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.cabecalho_links:hover{
+    font-size: 20px;
+    transition: font-size 0.3s ease-out;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10% 5% 10% 5%;
+}
+
+.apresentacao_texto{
+    margin: 0px;
+    height: 100%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_img{
+    border-radius: 50%;
+    height: 250px;
+}
+
+
+.rodape{
+    text-align: center;
+    background-color: #484726;
+    padding: 3% 3%;
+}
+
+.rodape p{
+    color: #d9d9db;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.titulo_certificacoes{
+    text-align: left;
+    padding: 3% 0 3% 4%;
+    margin-left: 10px;
+
+}
+
+.links_certificacoes{
+    padding: 0% 5% 10% 5%;
+
+}
+
+.links_certificacoes_ul{
+    font-size: 25px;
+    line-height: 50px;
+
+}
+
+.lista_section{
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 0;
+    width: 100%;
+}
+.lista_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+
+}
+.lista{
+    padding: 2% 10px 5% 5%;
+}
+
+.lista_itens_img{
+    height: 150px;
+    padding-left: 0;
+    max-width: 250px;
+}
+
+.projetos{
+padding-top: 2%;
+padding-left: 5%;
+display: flex;
+flex-direction: row;
+gap: 50px;
+align-items: center;
+}
+
+.projetos p{
+    color: #484726;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-right: 5%;
+}
+
+
+.projetos_img{
+    height: 200px;
+    width: 315px;
+}
