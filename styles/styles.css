@@ -27,6 +27,10 @@ body{
     text-decoration: none;
     font-size: 16px;
     padding-left: 25px;
+    @media (max-width: 770px){
+        font-size: 15px;
+
+    }
 }
 
 .cabecalho_links:hover{
@@ -52,7 +56,7 @@ body{
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     @media (max-width: 770px){
-        font-size: 20px;
+        font-size: 15px;
 
     }
 }
