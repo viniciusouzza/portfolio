@@ -130,6 +130,7 @@ align-items: center;
 .projetos_img{
     height: 200px;
     width: 315px;
+    padding-bottom: 10px;
 }
 
 .certificados{
